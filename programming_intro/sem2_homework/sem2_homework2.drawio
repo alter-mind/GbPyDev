@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2023-12-01T13:14:02.020Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="ezGjzxW1PbqNUff7qAnC" version="22.1.2" type="device">
+<mxfile host="Electron" modified="2023-12-03T23:18:30.181Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="ADXRkHra50YAQ_pC8FKW" version="22.1.2" type="device">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1050" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -33,7 +33,7 @@
         <mxCell id="qFyBwQBADLYcg3Xm7_co-14" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qFyBwQBADLYcg3Xm7_co-4" target="qFyBwQBADLYcg3Xm7_co-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qFyBwQBADLYcg3Xm7_co-4" value="i &amp;lt;= size // 2" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="qFyBwQBADLYcg3Xm7_co-4" value="i &amp;lt;= size // 2 - 1" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="170" y="310" width="110" height="110" as="geometry" />
         </mxCell>
         <mxCell id="qFyBwQBADLYcg3Xm7_co-5" value="a[i], a[size -1 - i] = a[size -1 - i], a[i]&lt;br&gt;i += 1" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
