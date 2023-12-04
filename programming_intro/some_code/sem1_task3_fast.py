@@ -1,0 +1,1 @@
+print(f'mean = {sum([float(input()) for el in range(4)]) / 4}')
