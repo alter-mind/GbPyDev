@@ -1,0 +1,44 @@
+*   7021b92 - (HEAD -> branch1) final solve (Andrey Smirnov) 13.12.2023 01:00
+|\  
+| *   818c805 - (branch2) conflict solved (Andrey Smirnov) 13.12.2023 00:55
+| |\  
+| | *   2114f5f - (branch3) Merge branch 'branch4' into branch3 (Andrey Smirnov) 13.12.2023 00:30
+| | |\  
+| | | *   d7d67a6 - (branch4) Merge branch 'branch3' into branch4 (Andrey Smirnov) 13.12.2023 00:08
+| | | |\  
+| | | * | d4a4b36 - Add files for branch4 (Andrey Smirnov) 13.12.2023 00:04
+| | * | | e17cd38 - Add some conflict for branch3 too (Andrey Smirnov) 13.12.2023 00:25
+| | | |/  
+| | |/|   
+| | * | 608d368 - Add conflict in branch3 for merge with branch4 (Andrey Smirnov) 13.12.2023 00:07
+| | |/  
+| | * 9ef1a0c - Add files for branch3 (Andrey Smirnov) 13.12.2023 00:04
+| * | db7ef88 - Add conflict for branch2 too (Andrey Smirnov) 13.12.2023 00:23
+| |/  
+| * 8a7166f - Add files for branch2 (Andrey Smirnov) 13.12.2023 00:04
+* | c3bd93a - Add new conflict for branch1 (Andrey Smirnov) 13.12.2023 00:20
+|/  
+* a4607e2 - Add files for branch1 (Andrey Smirnov) 13.12.2023 00:04
+* 3236dc3 - (origin/git_intro, git_intro) git intro. Homework for the first seminar (Andrey Smirnov) 09.12.2023 02:17
+*   3243673 - (origin/master, master) Merge pull request #5 from alter-mind/programming_intro (GitHub) 09.12.2023 02:01
+|\  
+| * e9a5b1f - (origin/programming_intro, programming_intro) Введение в программирование. Семинар 3. Домашняя работа (Andrey Smirnov) 05.12.2023 00:52
+* | dc1c561 - Merge pull request #4 from alter-mind/programming_intro (GitHub) 05.12.2023 00:15
+|\| 
+| * c75ff4b - Код на python ко второму семинару по блоксхемам + быстрое решение (Andrey Smirnov) 04.12.2023 16:48
+| * fc42229 - some fixes (Andrey Smirnov) 04.12.2023 16:46
+| * 1eca28d - Код на python к первому семинару по блокхемам + быстрое решение (бонус) + fix (грамматическая ошибка в блок-схеме) (Andrey Smirnov) 04.12.2023 00:00
+| * f7e843e - add .gitignore and fix some issues (Andrey Smirnov) 03.12.2023 22:57
+| * 340ec72 - Введение в программирование. Урок 3. Второй максимум (Andrey Smirnov) 02.12.2023 18:21
+| * 49e4fa7 - fix sem2_homework2 error out of range (Andrey Smirnov) 01.12.2023 16:17
+* | 9d6244d - Merge pull request #3 from alter-mind/programming_intro (GitHub) 01.12.2023 02:28
+|\| 
+| * fda3278 - Домашняя работ от второго семинара (Andrey Smirnov) 01.12.2023 02:25
+* | c684b3b - Merge pull request #2 from alter-mind/programming_intro (GitHub) 01.12.2023 02:23
+|\| 
+| * 25e1a61 - Задача из классной работы со второго семинара (Andrey Smirnov) 01.12.2023 02:16
+* | 8a21d19 - Merge pull request #1 from alter-mind/programming_intro (GitHub) 01.12.2023 02:19
+|\| 
+| * 2d2d811 - Домашняя работа от первого семинара (Andrey Smirnov) 01.12.2023 02:08
+|/  
+* 6191237 - first commit (Andrey Smirnov) 01.12.2023 02:00
