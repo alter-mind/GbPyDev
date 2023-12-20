@@ -93,3 +93,8 @@ modules.xml
 # Pycache
 __pycache__/
 
+### Obsidian ###
+
+# Obsidian settings and plugins
+
+.obsidian/
