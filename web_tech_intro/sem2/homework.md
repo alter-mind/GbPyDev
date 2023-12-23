@@ -2,7 +2,7 @@
 aliases:
   - Домашняя работа ко 2-му семинару
 tags:
-  - readme
+  - homeworks
 cssclasses:
 ---
 ###### Area links
