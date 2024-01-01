@@ -7,6 +7,7 @@ cssclasses:
 ###### Area links
 - [[README|main doc]]
 - [[web_tech_intro/readme|Знакомство с web технологиями]]
+- [[web_tech_intro/sem3/homework|Домашняя работа]]
 ##### work notes
 
 _______________________________
