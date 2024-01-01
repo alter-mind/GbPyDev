@@ -98,3 +98,4 @@ __pycache__/
 # Obsidian settings and plugins
 
 .obsidian/
+.trash/
