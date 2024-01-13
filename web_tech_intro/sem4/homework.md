@@ -205,7 +205,7 @@ CREATE TABLE users (
 	name VARCHAR(255),
 	age INT NOT NULL,
 	adress VARCHAR(255)
-)
+);
 
 INSERT INTO 
 	users (name, age, adress)
