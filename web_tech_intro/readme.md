@@ -19,3 +19,4 @@ _______________________________
 - [[web_tech_intro/sem2/homework|Домашняя работа ко 2-му семинару]]
 - [[web_tech_intro/sem3/classwork|Семинар 3]]
 - [[web_tech_intro/sem3/homework|Домашняя работа к 3-му семинару]]
+- [[web_tech_intro/sem4/homework|Домашняя работа к 4-му семинару]]
