@@ -6,11 +6,11 @@ n - кол-во элементов первого множества.
 m - кол-во элементов второго множества.
 Затем подаются элементы каждого множества через пробел в виде строки. ! Писать input() не надо
 """
-from random import randrange
-var2 = ' '.join([str(randrange(10)) for i in range(randrange(5, 15))])
-var3 = ' '.join([str(randrange(10)) for i in range(randrange(5, 15))])
-var1 = f'{len(var2.split())} {len(var3.split())}'
-print(f'{var1}\n{var2}\n{var3}')
+# from random import randrange
+# var2 = ' '.join([str(randrange(10)) for i in range(randrange(5, 15))])
+# var3 = ' '.join([str(randrange(10)) for i in range(randrange(5, 15))])
+# var1 = f'{len(var2.split())} {len(var3.split())}'
+# print(f'{var1}\n{var2}\n{var3}')
 
 print(' '.join(sorted(list(set([el for el in var2.split() if el in var3.split()])))))
 '''
