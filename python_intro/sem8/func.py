@@ -127,11 +127,13 @@ def manage_book(book):
             phone = input('Введите телефон: ')
             email = input('Введите почту: ')
             note = input('Введите примечание: ')
-            book.add(Contact(name, phone, email, note))
+            print(f'* {len(book)}')
+            new_id = book[len(book) - 1].id + 1 if len(book) else 0
+            book.add(Contact(name, phone, email, note, new_id))
         elif answer == 3:
-            print('Пока не готово')
+            edit_contact(book, delete=False)
         elif answer == 4:
-            print('Пока не готово')
+            edit_contact(book, delete=True)
         elif answer == 5:
             book.save()
         if book.have_changes:
@@ -139,3 +141,34 @@ def manage_book(book):
             if bin_answer():
                 book.save()
 
+
+def edit_contact(book, delete=False):
+    if len(book):
+        print(f'Нужно выбрать контакт для {"удаления" if delete else "редактирования"}, желаете осуществить поиск?')
+        if bin_answer():
+            search_menu = book[0].key_menu
+            search_menu.show()
+            answer = get_answer(search_menu)
+            key = book[0].keys[answer]
+            mask = input('Введите поисковый ключ: ')
+            found = book.search(mask, key)
+        else:
+            found = book.contacts
+        if len(found):
+            print('Подходящие контакты')
+            to_strip = '\n'
+            contact_menu = Menu('\n'.join([f'{el.id} - {str(el).rstrip(to_strip)}' for el in found]))
+            contact_menu.show()
+            edit_id = get_answer(contact_menu)
+            if delete:
+                book.delete(edit_id)
+            else:
+                print('Какое поле хотите изменить?')
+                key_menu = book[0].key_menu
+                key_menu.show()
+                answer = get_answer(key_menu)
+                key = book[0].keys[answer]
+                edition = input('Введите новое содержание поля: ')
+                book.change(edit_id, edition, key)
+    else:
+        print('Этот справочник пуст')
